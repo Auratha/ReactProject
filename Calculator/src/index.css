@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer{
+    .original-grid{
+       @apply flex justify-center items-center bg-gray-700 rounded-full size-10 mx-auto hover:bg-[#ED0E98] cursor-pointer
+    }
+
+    .span-grid{
+        @apply flex justify-center items-center rounded-full size-10 mx-auto row-span-2 h-4/5 bg-gradient-to-b from-[#ED0E98] to-[#FE5A2D] cursor-pointer
+     }
+}
