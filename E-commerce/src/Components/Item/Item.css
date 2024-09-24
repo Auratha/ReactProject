@@ -1,0 +1,18 @@
+@layer{
+
+    .item-name{
+        @apply text-sm
+    }
+
+    .price{
+        @apply mt-2 flex items-center
+    }
+
+    .new-price{
+        @apply font-bold 
+    }
+
+    .old-price{
+        @apply line-through text-gray-400
+    }
+}

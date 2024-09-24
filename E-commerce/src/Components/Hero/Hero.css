@@ -1,0 +1,34 @@
+@layer{
+    .hero{
+        @apply h-[100vh] px-20 py-10 flex items-center bg-gradient-to-b from-pink-100 to-white
+    }
+
+    .left-hero,.right-hero{
+        @apply w-1/2
+    }
+
+    .left-hero .heading{
+        @apply text-7xl font-semibold
+    }
+
+    .new-hand{
+        @apply flex items-center
+    }
+
+    .hand-icon{
+        @apply w-10
+    }
+
+    .hero-btn{
+        @apply w-[40%] px-5 py-4 mt-6 bg-red-500 text-white flex items-center  rounded-full
+    }
+
+   .arrow-icon{
+       @apply w-5 ml-10
+   }
+
+    .right-hero img{
+        @apply w-[70%] mx-auto
+    }
+    
+}
